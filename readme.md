@@ -1,4 +1,4 @@
-```markdown
+
 # Walmart Sales Data Analysis using SQL & Python
 
 ![Project Pipeline](images/walmart.png)
@@ -62,8 +62,6 @@ SELECT
     SUM(quantity) AS no_qty_sold
 FROM walmart
 GROUP BY payment_method;
-
-```
 
 ### 2. Highest Rated Category in Each Branch
 
